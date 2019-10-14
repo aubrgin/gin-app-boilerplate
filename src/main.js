@@ -5,7 +5,7 @@ import Vue from 'vue';
 
 if (process.env.NODE_ENV !== 'production') {
   new Vue({
-    render: (h) => h(Sql),
+    render: (h) => h(App),
   }).$mount('#app');
   
   function injectCss(css) {
